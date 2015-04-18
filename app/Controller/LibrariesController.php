@@ -80,8 +80,8 @@ class LibrariesController extends AppController {
 			$this->Library->create();
 			if ($this->Library->save($this->request->data)) {
 
-				//debug($this->request->data);
-				//exit;
+
+
 
 				$this->Session->setFlash(__('The library has been saved.'));
 				return $this->redirect(array('action' => 'index'));
