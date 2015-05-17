@@ -67,11 +67,11 @@ echo date('Y-m-d H:i:s',strtotime('+2day'));
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('検索'), array('action' => 'search')); ?></li>
-		<li><?php echo $this->Html->link(__('New Library'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Categories'), array('controller' => 'categories', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Category'), array('controller' => 'categories', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Publishers'), array('controller' => 'publishers', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Publisher'), array('controller' => 'publishers', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('図書追加'), array('action' => 'add')); ?></li>
+		<li><?php echo $this->Html->link(__('カテゴリーリスト'), array('controller' => 'categories', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('カテゴリー追加'), array('controller' => 'categories', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('出版社リスト'), array('controller' => 'publishers', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('出版社追加'), array('controller' => 'publishers', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('削除済みデータ'), array('controller' => 'libraries', 'action' => 'old'));?>
 	</ul>
 </div>
